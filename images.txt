@@ -1,3 +1,4 @@
+breezedeus/cnocr:latest
 nginx
 openjdk:11
 openjdk:17
