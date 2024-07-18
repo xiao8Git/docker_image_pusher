@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-getsentry/snuba:24.5.0
+ollama/ollama
 
 
 #支持私库
