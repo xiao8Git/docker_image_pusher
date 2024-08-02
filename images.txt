@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-ubuntu:latest
+python:3.12.4
 
 
 #支持私库
