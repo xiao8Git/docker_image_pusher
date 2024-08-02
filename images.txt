@@ -1,7 +1,6 @@
 #ubuntu:22.04
 
-ollama/ollama
-lobehub/lobe-chat
+ubuntu:latest
 
 
 #支持私库
