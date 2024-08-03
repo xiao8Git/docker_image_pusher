@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-python:3.12.4
+breakstring/gpt-sovits:latest
 
 
 #支持私库
