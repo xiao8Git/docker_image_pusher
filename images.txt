@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
- harryliu888/audio-notes
+ harryliu888/cosyvoice
 
 
 #支持私库
