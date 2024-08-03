@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-breakstring/gpt-sovits:latest
+conda/miniconda3
 
 
 #支持私库
