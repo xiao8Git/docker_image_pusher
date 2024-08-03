@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-conda/miniconda3
+ harryliu888/funasr-online-server:latest
 
 
 #支持私库
