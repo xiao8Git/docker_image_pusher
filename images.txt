@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
- harryliu888/cosyvoice
+ sonarqube:10.6.0-community
 
 
 #支持私库
