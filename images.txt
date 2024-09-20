@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
- jaegertracing/jaeger-query:1.61.0
+ jaegertracing/jaeger-agent:1.61.0
 
 
 #支持私库
