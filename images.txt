@@ -1,6 +1,7 @@
 #ubuntu:22.04
 
-hengyunabc/arthas:4.0.1-no-jdk
+openjdk:17
+openjdk:17-slim
 
 
 #支持私库
