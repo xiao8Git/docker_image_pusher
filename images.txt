@@ -1,7 +1,6 @@
 #ubuntu:22.04
 
-openjdk:17
-openjdk:17-slim
+rabbitmq:3.13.7-management
 
 
 #支持私库
