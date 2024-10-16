@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-debian:bookworm-slim
+ghcr.io/jaegertracing/spark-dependencies/spark-dependencies
 
 
 #支持私库
