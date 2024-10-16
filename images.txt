@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-rabbitmq:3.13.7-management
+debian:bookworm-slim
 
 
 #支持私库
