@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-ghcr.io/jaegertracing/spark-dependencies/spark-dependencies
+sonarqube:10.7.0-community
 
 
 #支持私库
