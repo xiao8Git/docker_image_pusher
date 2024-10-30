@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-sonarqube:10.7.0-community
+rabbitmq:4.0.3-management
 
 
 #支持私库
