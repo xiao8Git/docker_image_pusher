@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-dinky-standalone-server:1.1.0-flink1.17
+dinkydocker/dinky-standalone-server:1.1.0-flink1.19
 
 
 #支持私库
