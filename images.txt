@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-flink:1.19-scala_2.12-java8
+node:18.15.0-alpine3.17
 
 
 #支持私库
