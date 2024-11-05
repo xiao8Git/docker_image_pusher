@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-node:18.15.0-alpine3.17
+dinky-standalone-server:1.1.0-flink1.17
 
 
 #支持私库
