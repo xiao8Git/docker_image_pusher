@@ -1,6 +1,5 @@
 #ubuntu:22.04
 
-ikiler/dinky:1.1.0-flink1.19
 flink:1.19-scala_2.12-java8
 
 
