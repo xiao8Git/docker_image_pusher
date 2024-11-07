@@ -1,7 +1,6 @@
 #ubuntu:22.04
 
-apache/doris:2.0.0_alpha-fe-x86_64
-apache/doris:2.0.0_alpha-be-x86_64
+ghcr.io/apache/flink-kubernetes-operator:c703255
 
 
 #支持私库
