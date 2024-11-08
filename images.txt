@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-ghcr.io/apache/flink-kubernetes-operator:c703255
+apache/flink:1.20.0-scala_2.12
 
 
 #支持私库
