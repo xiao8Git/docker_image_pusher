@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator:0.113.0
+ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector:0.113.0
 
 
 #支持私库
