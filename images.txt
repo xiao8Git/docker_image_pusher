@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-rabbitmqoperator/messaging-topology-operator:1.15.0
+rabbitmqoperator/cluster-operator:2.11.0
 
 
 #支持私库
