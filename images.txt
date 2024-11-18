@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-ghcr.io/open-telemetry/demo:1.12.0-loadgenerator
+rabbitmqoperator/messaging-topology-operator:1.15.0
 
 
 #支持私库
