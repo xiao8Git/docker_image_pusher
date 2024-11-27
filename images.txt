@@ -1,6 +1,6 @@
 #ubuntu:22.04
 
-debian:bullseye-slim
+hengyunabc/arthas:4.0.4-no-jdk
 
 
 #支持私库
