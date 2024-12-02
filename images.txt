@@ -1,7 +1,8 @@
 #ubuntu:22.04
 
-postgres:15
-redis:7
+node:20-bullseye-slim
+python:3.10-slim-bookworm
+node:16-alpine
 
 
 #支持私库
