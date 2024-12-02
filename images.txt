@@ -1,6 +1,7 @@
 #ubuntu:22.04
 
-hengyunabc/arthas:4.0.4-no-jdk
+postgres:15
+redis:7
 
 
 #支持私库
