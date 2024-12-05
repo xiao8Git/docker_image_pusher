@@ -1,6 +1,7 @@
 #ubuntu:22.04
 
-apache/superset:latest-dev
+apache/doris:doris-fe-2.1.7
+apache/doris:doris-be-2.1.7
 
 
 #支持私库
