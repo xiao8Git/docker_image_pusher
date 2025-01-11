@@ -1,7 +1,11 @@
 #ubuntu:22.04
 
-apache/doris:doris-fe-2.1.7
-apache/doris:doris-be-2.1.7
+postgres:15
+redis:7
+rabbitmq:3.12-management
+jaegertracing/all-in-one:1.53
+elasticsearch:8.11.1
+otel/opentelemetry-collector-contrib:0.88.0
 
 
 #支持私库
