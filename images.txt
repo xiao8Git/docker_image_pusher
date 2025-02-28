@@ -1,10 +1,6 @@
 #ubuntu:22.04
 
-ghcr.io/apache/dolphinscheduler/dolphinscheduler-tools:latest
-ghcr.io/apache/dolphinscheduler/dolphinscheduler-api:latest
-ghcr.io/apache/dolphinscheduler/dolphinscheduler-alert-server:latest
-ghcr.io/apache/dolphinscheduler/dolphinscheduler-master:latest
-ghcr.io/apache/dolphinscheduler/dolphinscheduler-worker:latest
+sonarqube:25.2.0.102705-community
 
 #支持私库
 # k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
