@@ -1,7 +1,7 @@
 #ubuntu:22.04
 
 #python:3.11-slim
---platform linux/arm64,linux/amd64 amazoncorretto:21.0.7-al2023
+moby/buildkit:buildx-stable-1
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
