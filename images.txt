@@ -1,7 +1,7 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-osixia/phpldapadmin
+amazoncorretto:21.0.7-al2023
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
