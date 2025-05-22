@@ -1,7 +1,8 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-oliver006/redis_exporter:latest
+oliver006/redis_exporter:v1.44.0
+
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
