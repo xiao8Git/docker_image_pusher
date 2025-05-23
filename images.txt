@@ -1,16 +1,8 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-bitnami/zookeeper:3.8.1
-mysql:8.0
-bitnami/postgresql:14.5.0
-apache/dolphinscheduler-api:3.1.5
-apache/dolphinscheduler-master:3.1.5
-apache/dolphinscheduler-worker:3.1.5
-apache/dolphinscheduler-alert-server:3.1.5
-apache/seatunnel:2.3.11
-apache/doris:2.0.2-fe-x86_64
-apache/doris:2.0.2-be-x86_64
+apache/doris:be-3.0.5
+apache/doris:fe-3.0.5
 minio/minio
 
 
