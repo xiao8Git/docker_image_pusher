@@ -1,9 +1,7 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-apache/doris:be-3.0.5
-apache/doris:fe-3.0.5
-minio/minio
+apache/doris:operator-latest
 
 
 #--platform=linux/arm64/v8 debian:buster-slim
