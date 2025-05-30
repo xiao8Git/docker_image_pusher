@@ -1,7 +1,16 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-rabbitmq:3.9.15-management
+postgres:15-alpine
+redis:7-alpine
+quay.io/coreos/etcd:v3.5.5
+minio/minio:RELEASE.2023-03-20T20-16-18Z
+milvusdb/milvus:v2.3.4
+ollama/ollama:latest
+dpage/pgadmin4:latest
+rediscommander/redis-commander:latest
+zilliz/attu:latest
+mailhog/mailhog:latest
 
 
 #--platform=linux/arm64/v8 debian:buster-slim
