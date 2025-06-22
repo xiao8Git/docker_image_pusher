@@ -1,8 +1,13 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-confluentinc/cp-kafka:7.4.0
-confluentinc/cp-zookeeper:7.4.0
+mongo:6.0
+redis:7-alpine
+nginx:alpine
+prom/prometheus:latest
+grafana/grafana:latest
+alpine:latest
+node:18-alpine
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
