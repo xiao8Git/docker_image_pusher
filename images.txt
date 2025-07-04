@@ -1,7 +1,7 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-3.14.0b3-bookworm
+python:3.14.0b3-bookworm
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
