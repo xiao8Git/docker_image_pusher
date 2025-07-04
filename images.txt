@@ -1,10 +1,7 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-minio/minio:latest
-mailhog/mailhog:latest
-adminer:latest
-rediscommander/redis-commander:latest
+python:3.9.23-bookworm
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
