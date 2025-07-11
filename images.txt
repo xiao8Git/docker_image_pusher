@@ -1,7 +1,7 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-selectdb/alpine:latest
+flink:1.17.2-scala_2.12-java11
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
