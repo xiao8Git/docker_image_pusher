@@ -1,7 +1,7 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-openjdk:8-jre-alpine
+apache/seatunnel:2.3.11
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
