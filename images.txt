@@ -1,7 +1,7 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-debian:buster-slim
+--platform=linux/arm64/v8 debian:buster-slim
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
