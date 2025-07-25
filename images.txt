@@ -1,7 +1,7 @@
 #ubuntu:22.04
 
 #python:3.11-slim
---platform=linux/arm64/v8 debian:buster-slim
+rabbitmq:3-management-alpine
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
