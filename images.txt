@@ -1,7 +1,8 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-rabbitmq:3-management-alpine
+apache/doris:fe-2.1.10
+apache/doris:be-2.1.10
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
