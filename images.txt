@@ -1,7 +1,8 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-apache/flink:1.20.0-scala_2.12
+confluentinc/cp-kafka:7.4.10
+hlebalbau/kafka-manager:stable
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
