@@ -1,7 +1,8 @@
 #ubuntu:22.04
 
 #python:3.11-slim
-danielqsj/kafka-exporter:latest
+confluentinc/cp-zookeeper:7.4.10
+provectuslabs/kafka-ui:latest
 
 #--platform=linux/arm64/v8 debian:buster-slim
 
