@@ -2,7 +2,7 @@
 
 #python:3.11-slim
 
-apache/seatunnel:2.3.4
+apache/seatunnel:2.3.10
 prom/prometheus:v2.45.0
 grafana/grafana:10.0.0
 
