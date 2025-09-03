@@ -2,9 +2,7 @@
 
 #python:3.11-slim
 
-apache/seatunnel:2.3.10
-prom/prometheus:v2.45.0
-grafana/grafana:10.0.0
+prom/prometheus:latest
 
  
 #--platform=linux/arm64/v8 debian:buster-slim
