@@ -2,7 +2,7 @@
 
 #python:3.11-slim
 
-obsidiandynamics/kafdrop:latest
+apache/kafka:latest
 
  
 #--platform=linux/arm64/v8 debian:buster-slim
