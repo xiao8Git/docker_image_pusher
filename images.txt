@@ -2,7 +2,7 @@
 
 #python:3.11-slim
 
-prom/prometheus:latest
+obsidiandynamics/kafdrop:latest
 
  
 #--platform=linux/arm64/v8 debian:buster-slim
