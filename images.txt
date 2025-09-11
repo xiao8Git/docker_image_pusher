@@ -2,7 +2,7 @@
 
 #python:3.11-slim
 
-selectdb/alpine:latest
+python:3.12.11-bookworm
 
  
 #--platform=linux/arm64/v8 debian:buster-slim
