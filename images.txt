@@ -2,7 +2,7 @@
 
 #python:3.11-slim
 
-python:3.12.11-bookworm
+flink:1.17.1
 
  
 #--platform=linux/arm64/v8 debian:buster-slim
