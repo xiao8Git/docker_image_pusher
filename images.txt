@@ -1,4 +1,4 @@
-flink:1.20.3-java17
+1.18.1-java17
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
 # k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
