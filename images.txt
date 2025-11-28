@@ -1,4 +1,5 @@
-flink:1.18.1-java17
+sonarqube:25.11.0.114957-community
+
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
 # k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
