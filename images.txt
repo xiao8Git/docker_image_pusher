@@ -1,4 +1,4 @@
-sonarqube:25.11.0.114957-community
+flink:1.16.2
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
