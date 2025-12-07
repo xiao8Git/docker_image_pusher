@@ -1,4 +1,4 @@
-flink:1.16.2
+ amazoncorretto:21.0.9
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
