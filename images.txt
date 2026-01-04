@@ -1,4 +1,4 @@
- postgres:16
+node:20-trixie-slim
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
