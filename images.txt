@@ -1,4 +1,4 @@
-python:3.11.14-slim-trixie
+apache/superset-cache:3.10-slim-trixie
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
