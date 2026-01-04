@@ -1,4 +1,4 @@
- amazoncorretto:21.0.9
+ postgres:16
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
