@@ -1,4 +1,5 @@
-apache/superset-cache:3.10-slim-trixie
+node:16-alpine
+postgres:16-alpine
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
