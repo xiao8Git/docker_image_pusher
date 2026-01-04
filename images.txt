@@ -1,4 +1,4 @@
-node:20-trixie-slim
+python:3.11.14-slim-trixie
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
