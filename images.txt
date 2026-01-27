@@ -1,5 +1,4 @@
-node:16-alpine
-postgres:16-alpine
+sonarqube:26.1.0.118079-community
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
