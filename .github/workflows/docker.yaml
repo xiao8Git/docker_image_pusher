@@ -21,10 +21,6 @@ jobs:
     - name: Before freeing up disk space
       run: |
         echo "Before freeing up disk space"
-        echo $ALIYUN_REGISTRY
-        echo $ALIYUN_NAME_SPACE
-        echo $ALIYUN_REGISTRY_USER
-        echo $ALIYUN_REGISTRY_PASSWORD
         echo "=============================================================================="
         df -hT
         echo "=============================================================================="
@@ -143,6 +139,10 @@ jobs:
             # 将@sha256:等字符删除
             image_name_tag="${image_name_tag%%@*}"
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$platform_prefix$name_space_prefix$image_name_tag"
+            echo "ALIYUN_REGISTRY:$ALIYUN_REGISTRY"
+            echo "ALIYUN_NAME_SPACE:$ALIYUN_NAME_SPACE"
+            echo "ALIYUN_REGISTRY_USER:$ALIYUN_REGISTRY_USER"
+            echo "ALIYUN_REGISTRY_PASSWORD:$ALIYUN_REGISTRY_PASSWORD"
             echo "docker tag $image $new_image"
             docker tag $image $new_image
             echo "docker push $new_image"
