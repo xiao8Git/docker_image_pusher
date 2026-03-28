@@ -1,5 +1,4 @@
-apache/doris:fe-4.0.4
-apache/doris:be-4.0.4
+openclaw/openclaw:latest
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
