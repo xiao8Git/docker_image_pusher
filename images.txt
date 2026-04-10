@@ -1,5 +1,4 @@
-gitea/gitea:latest
-mariadb:10
+dockurr/windows
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
