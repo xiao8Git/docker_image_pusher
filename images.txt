@@ -1,4 +1,4 @@
-dockurr/windows
+metabase/metabase:latest
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
