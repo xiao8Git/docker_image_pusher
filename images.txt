@@ -1,4 +1,4 @@
-metabase/metabase:latest
+flink:2.2.0-scala_2.12-java21
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
