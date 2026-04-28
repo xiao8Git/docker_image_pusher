@@ -1,4 +1,4 @@
-flink:2.2.0
+wojiushixiaobai/dataease:latest
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
