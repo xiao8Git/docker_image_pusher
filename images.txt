@@ -1,5 +1,5 @@
-mysql:5.7
-wordpress:latest
+apache/doris:fe-4.1.0
+apache/doris:be-4.1.0
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
