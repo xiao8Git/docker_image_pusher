@@ -60,7 +60,7 @@ shrimp-images 即 ALIYUN_NAME_SPACE(阿里云命名空间)<br>
 alpine 即 阿里云中显示的镜像名<br>
 
 ### 多架构
-需要在images.txt中用 --platform=xxxxx手动指定镜像架构
+默认会同步原镜像支持的全部架构。如果需要只同步某一个架构，可以在images.txt中用 --platform=xxxxx手动指定镜像架构
 指定后的架构会以前缀的形式放在镜像名字前面
 ![](doc/多架构.png)
 

@@ -106,8 +106,6 @@ jobs:
                 continue
             fi
         
-            echo "docker pull $line"
-            docker pull $line
             platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
             echo "platform is $platform"
             # 如果存在架构信息 将架构信息拼到镜像名称前面
@@ -142,20 +140,27 @@ jobs:
             echo "ALIYUN_REGISTRY:$ALIYUN_REGISTRY"
             echo "ALIYUN_NAME_SPACE:$ALIYUN_NAME_SPACE"
             echo "ALIYUN_REGISTRY_USER:$ALIYUN_REGISTRY_USER"
-            echo "ALIYUN_REGISTRY_PASSWORD:$ALIYUN_REGISTRY_PASSWORD"
-            echo "docker tag $image $new_image"
-            docker tag $image $new_image
-            echo "docker push $new_image"
-            docker push $new_image
-            echo "开始清理磁盘空间"
-            echo "=============================================================================="
-            df -hT
-            echo "=============================================================================="
-            docker rmi $image
-            docker rmi $new_image
-            echo "磁盘空间清理完毕"
-            echo "=============================================================================="
-            df -hT
-            echo "=============================================================================="     
+
+            if [ -z "$platform" ]; then
+                echo "docker buildx imagetools create -t $new_image $image"
+                docker buildx imagetools create -t "$new_image" "$image"
+            else
+                echo "docker pull $line"
+                docker pull $line
+                echo "docker tag $image $new_image"
+                docker tag $image $new_image
+                echo "docker push $new_image"
+                docker push $new_image
+                echo "开始清理磁盘空间"
+                echo "=============================================================================="
+                df -hT
+                echo "=============================================================================="
+                docker rmi $image
+                docker rmi $new_image
+                echo "磁盘空间清理完毕"
+                echo "=============================================================================="
+                df -hT
+                echo "=============================================================================="
+            fi
             
         done < images.txt
