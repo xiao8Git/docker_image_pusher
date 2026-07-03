@@ -1,4 +1,4 @@
-nousresearch/hermes-agent
+ekkoye8888/hermes-web-ui:latest
 
 # --platform=linux/arm64/v8 debian:buster-slim
 # 支持私库
